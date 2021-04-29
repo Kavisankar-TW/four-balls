@@ -1,3 +1,5 @@
+package procedural;
+
 import processing.core.PApplet;
 
 public class FourBalls extends PApplet {
@@ -11,7 +13,7 @@ public class FourBalls extends PApplet {
     int xCoordinateOfBalls[] = {0, 0, 0, 0};
 
     public static void main(String[] args) {
-        PApplet.main("FourBalls", args);
+        PApplet.main("procedural.FourBalls", args);
     }
 
     @Override
